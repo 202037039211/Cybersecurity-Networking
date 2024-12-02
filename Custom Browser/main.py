@@ -107,4 +107,3 @@ window.show()
 
 # Start the event loop
 sys.exit(app.exec_())
-

@@ -12,9 +12,11 @@ This simple Python script scans for available Wi-Fi networks on a Windows machin
 
 ## Installation:
 1. Clone the repository or download the script.
-   ```bash
-   git clone <repository-url>
+```bash
+git clone <repository-url>
+```
 
 2. Run the script:
-   ```bash
-   python wifi_scan.py
+```bash
+python main.py
+```

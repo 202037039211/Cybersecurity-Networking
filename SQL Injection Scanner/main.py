@@ -4,7 +4,7 @@ from urllib.parse import urljoin
 
 # Session to handle requests with a user agent
 s = requests.Session()
-s.headers["User-Agent"] = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+s.headers["User-Agent"] = "/"
 
 # Function to extract all forms from a given URL
 def get_forms(url):
@@ -83,4 +83,3 @@ def sql_injection_scan(url):
 if __name__ == "__main__":
     target_url = "https://www.example.com"  # Replace with your target URL
     sql_injection_scan(target_url)
-

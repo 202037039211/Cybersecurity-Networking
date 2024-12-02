@@ -31,4 +31,3 @@ def scan_ports(target_host, start_port=50, end_port=500):
 if __name__ == "__main__":
     target = input("Enter host for scanning (e.g., google.com or 192.168.1.1): ").strip()
     scan_ports(target)
-

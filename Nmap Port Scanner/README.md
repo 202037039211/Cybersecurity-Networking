@@ -14,9 +14,11 @@ This Python project uses the `nmap` module to scan a range of ports on a specifi
 
 ## Installation:
 1. Install `nmap`:
-   ```bash
-   sudo apt install nmap  # For Debian-based systems
+```bash
+sudo apt install nmap  # For Debian-based systems
+```
 
 2. Install the python-nmap library:
-   ```bash
-   pip install python-nmap
+```bash
+pip install python-nmap
+```

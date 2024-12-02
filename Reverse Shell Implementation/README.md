@@ -12,11 +12,13 @@ This project demonstrates a basic reverse shell setup, where a client connects t
 ## Setup:
 1. **Server:**
    - Run the server script on the machine that will control the client.
-   ```bash
-   python server.py
+```bash
+python server.py
+```
 
 2. **Client:**
    - Run the client script on the remote machine.
-     ```bash
-     python client.py
+```bash
+python client.py
+```
    - Replace <server_IP_address> with your server's IP address.

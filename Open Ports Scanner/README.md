@@ -14,6 +14,7 @@ This Python script scans for open ports on a specified host. It uses the `socket
 ## Usage:
 1. Clone the repository or download the script.
 2. Run the script:
-   ```bash
-   python port_scanner.py
+```bash
+python main.py
+```
 3. Enter the target hostname or IP address when prompted.

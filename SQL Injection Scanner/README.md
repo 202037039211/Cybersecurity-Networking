@@ -14,8 +14,9 @@ This tool scans web forms for potential SQL Injection vulnerabilities by submitt
 ## Installation:
 1. Clone the repository or copy the code.
 2. Install dependencies:
-   ```bash
-   pip install requests beautifulsoup4
+```bash
+pip install requests beautifulsoup4
+```
 
 ---
 
@@ -25,13 +26,15 @@ This tool scans web forms for potential SQL Injection vulnerabilities by submitt
    - Ensure you have permission to test the target website.
 
 2. **Install Dependencies:**
-   ```bash
-   pip install requests beautifulsoup4
-   
+```bash
+pip install requests beautifulsoup4
+```
+
 3. **Run the Script:**
-   ```bash
-   python sqli_scanner.py
- 
+```bash
+python main.py
+```
+
 4. **Interpret Results:**
    - The script will report any detected SQL injection vulnerabilities and the payload used.
    - If no vulnerabilities are found, it will indicate that as well.

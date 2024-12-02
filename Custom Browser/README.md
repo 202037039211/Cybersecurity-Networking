@@ -15,13 +15,16 @@ A simple, tab-based web browser built using Python and PyQt5. This project demon
 
 ## Installation:
 1. Clone the repository:
-   ```bash
-   git clone <repository-url>
+```bash
+git clone <repository-url>
+```
 
 2. Install the required packages:
-   ```bash
-   pip install PyQt5 PyQtWebEngine
+```bash
+pip install PyQt5 PyQtWebEngine
+```
 
 3. Run the browser:
-   ```bash
-   python browser.py
+```bash
+python main.py
+```

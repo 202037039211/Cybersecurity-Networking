@@ -19,4 +19,3 @@ def scan_wifi_networks():
 
 # Call the function to scan networks
 scan_wifi_networks()
-
